@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* --------------navbar */
+#nav-bar{
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #14131a,#0a353e);
+}
+.navbar-brand img{
+    height: 47px;
+    padding-left: 20px;
+}
+.navbar-nav li a{
+    float: right;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/* ------------banner-section */
+#banner{
+    background-image: linear-gradient(to right, #14131a,#0a353e);
+    color: white;
+    padding-top: 5%;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+/* --------------services section */
+
+.title::before{
+    content: '';
+    background: #0a353e;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background: #0a353e;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    display: block;
+    transform: translateY(8px);
+}
+.s-btn{
+    background-color: #14131a;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+.s-btn:hover{
+    background-color: #0a353e;
+    color: white;
+}
+.service-btn{
+    box-shadow: none;
+    margin-top: 30px;
+    color: white;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #14131a,#0a353e);
+}
+.service-btn:hover{
+    color: white;
+}
+
+/* -------about-us */
+#about-us{
+    background: #f8f9fa;
+}
+.a-title{
+    color: #0a353e;
+}
+
+#about-us ul li::before {
+    content: "\2022";
+    color: #14131a;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+/* ----------testimonials */
+
+
+.testimonials{
+    border-left: 4px solid #0a353e;
+}
+
+.testimonials img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* --------social-media */
+#social-media{
+    background: #f8f9fa;
+    padding: 90px 0;
+}
+
+.social-icons img{
+    width: 70px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* -----------footer */
+#footer{
+    background-image: linear-gradient(to right, #14131a,#0a353e);
+    color: white;
+}
+.footer-box img{
+    width: 80px;
+}
